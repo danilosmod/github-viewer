@@ -1,9 +1,10 @@
-import Header from "./components/Header";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <div>
-      <Header />
+      <h1>Github-viewer</h1>
+      <Layout />
     </div>
   );
 }

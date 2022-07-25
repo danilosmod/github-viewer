@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 250px;
+}
+
+li {
+    list-style: none;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 210px;
+    border-radius: 4px;
+    max-width: 30%;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+li:hover {
+    background-color: rgb(206, 232, 255);
+}
+
+input {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    width: 300px;
+    margin-left: 250px;
+    font-size: 2rem;
+}
+
+button {
+    background-color: rgb(205, 236, 159);
+    border: none;
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
